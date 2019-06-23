@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-06-22_1347",
+    "name": "EVA",
     "currentPage": ".html",
     "theme": {
       "name": "storem4",
@@ -54,7 +54,9 @@
     "uniqCompNum": 22,
     "versionPublish": "4.7.6",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "seoUrl": "Options +MultiViews\r\nRewriteEngine on\r\nRewriteCond %{REQUEST_FILENAME} !-d\r\nRewriteCond %{REQUEST_FILENAME}.html -f\r\nRewriteRule ^(.*)$ $1.html\r\n",
+    "seourlSwitcher": "on"
   },
   "pages": {
     ".html": {
